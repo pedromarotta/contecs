@@ -1,0 +1,14 @@
+{
+  "name": "contecs",
+  "owner": {
+    "name": "Pedro Marotta"
+  },
+  "description": "Contecs: ask a colleague's AI session from your own chat.",
+  "plugins": [
+    {
+      "name": "contecs",
+      "source": "./",
+      "description": "Ask a colleague's AI session from your own chat. It answers from their Claude Code or Codex session, read-only, with their approval."
+    }
+  ]
+}
