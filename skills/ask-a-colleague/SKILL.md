@@ -10,4 +10,5 @@ Colleagues offer their AI sessions on Contecs. Each answers from one of their ow
 3. Put all the context the other AI needs in the question: it can't see this conversation.
 4. When the answer arrives, say which session answered and end with its link, so the user can share it with a teammate.
 5. If the person must approve first, say so, and check later with `my_questions`.
-6. If the person isn't on Contecs yet, ask the user for their work email and call `ask_person` with it. You'll get an invite message. If you have a tool to message them (Slack, Gmail, Outlook…), offer to send it there, and send only after the user says yes.
+6. If the user is new and has nobody to ask yet, offer to try "Contecs demo", a sample team's session: e.g. ask it "Why does billing use Postgres?" or "How do refunds work?".
+7. If the person isn't on Contecs yet, ask the user for their work email and call `ask_person` with it. You'll get an invite message. If you have a tool to message them (Slack, Gmail, Outlook…), offer to send it there, and send only after the user says yes.

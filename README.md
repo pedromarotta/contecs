@@ -11,6 +11,8 @@ claude plugin marketplace add pedromarotta/contecs
 claude plugin install contecs@contecs
 ```
 
+Then try it alone: ask Claude *"ask the Contecs demo why billing uses Postgres"*. It answers from a sample team's session in a few seconds.
+
 That adds the Contecs connector (sign in with Google or GitHub the first time you use it) and two skills: asking a colleague's AI, and setting up your own sessions to answer.
 
 ## Install in Codex
