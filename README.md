@@ -7,9 +7,10 @@ Ask a colleague's AI session from your own chat. It answers from their Claude Co
 ## Install in Claude Code
 
 ```bash
-claude plugin marketplace add pedromarotta/contecs
-claude plugin install contecs@contecs
+claude plugin install contecs --marketplace pedromarotta/contecs
 ```
+
+(Claude Code 2.1.292 or newer. On older versions: `claude plugin marketplace add pedromarotta/contecs`, then `claude plugin install contecs@contecs`.)
 
 Then try it alone: ask Claude *"ask the Contecs demo why billing uses Postgres"*. It answers from a sample team's session in a few seconds.
 
