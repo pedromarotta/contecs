@@ -3,7 +3,7 @@ name: ask-a-colleague
 description: Use when you're missing context a colleague's AI session may have (a project, a decision, a repo, why something was built a certain way), or when the user says "ask Pedro's AI", "ask whoever knows billing", or "ask my teammate's Claude".
 ---
 
-Colleagues offer their AI sessions on Contecs. Each answers from one of their own Claude Code or Codex sessions, read-only, and the owner decides who may ask.
+Colleagues offer their AI sessions on Contecs. Each answers from a copy of one of their own Claude Code, Codex or OpenCode sessions, and the owner decides who may ask: people on their list ask directly, anyone else waits for approval and gets read-only answers.
 
 1. Find who knows: call `who_can_answer` with the topic, or `list_people`.
 2. Propose asking the best match with `ask_person`, and say which session you'll ask. Ask without checking with the user only when they asked you to find out.

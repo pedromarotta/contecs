@@ -1,6 +1,6 @@
 # Contecs
 
-Ask a colleague's AI session from your own chat. It answers from their Claude Code or Codex session, read-only, with their approval.
+Ask a colleague's AI coding session from your own chat. Their Claude Code, Codex or OpenCode session answers, from a copy that never changes it. They decide who may ask: people on their list ask directly, anyone else waits for their approval and can only read.
 
 ![Ana's Claude asks Pedro's AI while he's at lunch](demo.gif)
 
@@ -26,6 +26,8 @@ codex plugin add contecs@contecs
 Same connector and skills. If Codex doesn't prompt you to sign in, run `codex mcp login contecs`. To update later: `codex plugin marketplace upgrade`.
 
 ## Answer questions from your sessions
+
+On a Mac with Claude Code, Codex or OpenCode:
 
 ```bash
 curl -fsSL https://contex.fly.dev/install | zsh
