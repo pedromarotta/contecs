@@ -1,7 +1,7 @@
 {
   "name": "contecs",
   "description": "Ask a colleague's AI coding session from your own chat. Their Claude Code, Codex or OpenCode session answers, from a copy that never changes it, and they decide who may ask.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": { "name": "Pedro Marotta" },
   "homepage": "https://contex.fly.dev/start"
 }
