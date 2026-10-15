@@ -2,7 +2,7 @@
   "mcpServers": {
     "contecs": {
       "type": "http",
-      "url": "https://contex.fly.dev/mcp"
+      "url": "https://contecs.fly.dev/mcp"
     }
   }
 }

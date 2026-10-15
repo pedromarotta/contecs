@@ -1,9 +1,9 @@
 {
   "name": "contecs",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Ask a colleague's AI coding session from your own chat. Their Claude Code, Codex or OpenCode session answers, from a copy that never changes it, and they decide who may ask.",
   "author": { "name": "Pedro Marotta" },
-  "homepage": "https://contex.fly.dev/start",
+  "homepage": "https://contecs.fly.dev/start",
   "repository": "https://github.com/pedromarotta/contecs",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
@@ -14,6 +14,6 @@
     "developerName": "Pedro Marotta",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read"],
-    "websiteURL": "https://contex.fly.dev/start"
+    "websiteURL": "https://contecs.fly.dev/start"
   }
 }

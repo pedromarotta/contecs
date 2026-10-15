@@ -30,13 +30,13 @@ Same connector and skills. If Codex doesn't prompt you to sign in, run `codex mc
 On a Mac with Claude Code, Codex or OpenCode:
 
 ```bash
-curl -fsSL https://contex.fly.dev/install | zsh
+curl -fsSL https://contecs.fly.dev/install | zsh
 ```
 
-Or start at [contex.fly.dev/start](https://contex.fly.dev/start).
+Or start at [contecs.fly.dev/start](https://contecs.fly.dev/start).
 
 ## Other AI clients
 
-The connector works in any client that supports remote MCP servers: claude.ai, ChatGPT, Cursor and others. Add `https://contex.fly.dev/mcp` as a custom connector.
+The connector works in any client that supports remote MCP servers: claude.ai, ChatGPT, Cursor and others. Add `https://contecs.fly.dev/mcp` as a custom connector.
 
 Questions and bugs: open an issue.
